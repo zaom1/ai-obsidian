@@ -1,0 +1,11 @@
+node_modules/
+main.js
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+coverage/
+dist/
+.idea/
+.vscode/
+.qoder

@@ -1,0 +1,10 @@
+{
+  "id": "intent-inbox",
+  "name": "Intent Inbox",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Capture natural language input and route it to accounting, subscriptions, tasks, reminders, and memos.",
+  "author": "zaom1",
+  "authorUrl": "https://github.com/zaom1",
+  "isDesktopOnly": false
+}

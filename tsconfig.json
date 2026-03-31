@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["DOM", "ES2020"],
+    "strict": true,
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node", "obsidian"],
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts", "esbuild.config.mjs"],
+  "exclude": ["node_modules"]
+}

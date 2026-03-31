@@ -1,0 +1,28 @@
+{
+  "name": "intent-inbox",
+  "version": "0.1.0",
+  "description": "Obsidian smart input plugin with skills and MCP-ready architecture",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "llm",
+    "mcp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "esbuild": "^0.23.0",
+    "obsidian": "^1.6.7",
+    "typescript": "^5.5.4"
+  }
+}
